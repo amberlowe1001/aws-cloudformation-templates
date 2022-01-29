@@ -12,13 +12,12 @@
 ###################################################################################################
 
 from __future__ import print_function
-import traceback
+
+import json
 import logging
 import threading
-from time import sleep
-from datetime import datetime
+
 from botocore.vendored import requests
-import json
 
 
 def log_config(event, loglevel=None, botolevel=None):

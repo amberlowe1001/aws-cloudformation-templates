@@ -15,8 +15,9 @@
 Convert an object from our custom format into something more explicit
 """
 
-import resolve
 import re
+
+import resolve
 
 SUB_RE = re.compile(r"\$\{(?!!)")
 

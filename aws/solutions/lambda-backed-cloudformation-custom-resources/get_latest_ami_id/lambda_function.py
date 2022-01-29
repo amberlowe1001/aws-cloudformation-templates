@@ -27,11 +27,12 @@
 #       Disabled C0301 (line length)
 #       Disabled C0326 (whitespace after comma)
 from __future__ import print_function
+
 import json
 import time
+
 import boto3
 from botocore.vendored import requests
-
 
 DEBUG_MODE = True  # Manually change when debugging
 try:

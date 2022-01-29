@@ -11,11 +11,11 @@
 # ANY KIND, either express or implied. See the License for the specific
 # language governing permissions and limitations under the License.
 
-from urllib2 import build_opener, HTTPHandler, Request
-import base64
-import boto3
-import httplib
 import json
+
+import boto3
+from urllib2 import build_opener, HTTPHandler, Request
+
 
 def sendResponse(event, context, status, message):
     body = json.dumps({

@@ -1,7 +1,8 @@
 from __future__ import print_function
+
 import json
+
 import boto3
-import urllib
 from botocore.vendored import requests
 
 SUCCESS = "SUCCESS"

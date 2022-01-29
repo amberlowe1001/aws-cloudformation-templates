@@ -14,7 +14,6 @@ import os
 from typing import TYPE_CHECKING
 
 import boto3
-
 # import botocore
 from crhelper import CfnResource
 

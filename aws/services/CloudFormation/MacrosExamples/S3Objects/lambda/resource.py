@@ -11,11 +11,11 @@
 # ANY KIND, either express or implied. See the License for the specific
 # language governing permissions and limitations under the License.
 
-from urllib.request import build_opener, HTTPHandler, Request
 import base64
-import boto3
-import http.client
 import json
+from urllib.request import build_opener, HTTPHandler, Request
+
+import boto3
 
 s3_client = boto3.client("s3")
 

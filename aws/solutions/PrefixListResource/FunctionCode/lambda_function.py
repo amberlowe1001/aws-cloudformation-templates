@@ -2,9 +2,10 @@
 Get PrefixListID based on PrefixListName
 """
 
+import os
+
 from boto3 import client
 from botocore.exceptions import ClientError
-import os
 
 import crhelper
 
